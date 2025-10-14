@@ -1,6 +1,6 @@
 {
   "name": "@gaddario98/react-native-state",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "main": "dist/index.mjs",
   "module": "dist/index.mjs",
   "type": "module",
@@ -10,22 +10,30 @@
     "build": "rollup -c"
   },
   "devDependencies": {
+    "@gaddario98/react-state": "^1.0.10",
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-commonjs": "^28.0.3",
     "@rollup/plugin-node-resolve": "^16.0.1",
     "@rollup/plugin-typescript": "^12.1.2",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
     "@types/rollup-plugin-peer-deps-external": "^2",
+    "babel-plugin-react-compiler": "1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-native": "^0.82.0",
     "rollup": "^4.40.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-strip": "^1.2.2",
     "typescript": "^5.8.3"
   },
   "peerDependencies": {
-    "@gaddario98/react-state": "*",
-    "@react-native-async-storage/async-storage": "*",
-    "@types/react": "*",
-    "@types/react-dom": "*",
-    "react": "*",
-    "react-native": "*"
+    "@gaddario98/react-state": "^1.0.10",
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-native": "^0.82.0"
   },
   "files": [
     "dist"
