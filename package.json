@@ -1,6 +1,6 @@
 {
   "name": "@gaddario98/react-native-state",
-  "version": "1.0.13",
+  "version": "1.0.15",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -29,7 +29,7 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "@gaddario98/react-state": "^1.0.13",
+    "@gaddario98/react-state": "^1.0.15",
     "lz-string": "^1.5.0"
   },
   "peerDependencies": {
