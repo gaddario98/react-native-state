@@ -5,6 +5,9 @@ import {
   AtomGeneratorOptions,
   atomStateGenerator,
   setCustomStorage,
+  useLoadingState,
+  useLoadingValue,
+  useSetLoading,
 } from "@gaddario98/react-state";
 import { compress, decompress } from "lz-string";
 
@@ -60,4 +63,11 @@ const storage = {
 export const setReactNativeStorage = () => setCustomStorage(storage);
 
 // Esporta anche generator e opzioni
-export { type AtomGeneratorOptions, atomStateGenerator, storage };
+export {
+  type AtomGeneratorOptions,
+  atomStateGenerator,
+  storage,
+  useLoadingState,
+  useLoadingValue,
+  useSetLoading,
+};
